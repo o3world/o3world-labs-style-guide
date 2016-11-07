@@ -1,0 +1,897 @@
+<!doctype html>
+<!--[if IE 8]>    <html class="ie ie8 lte9 lte8" lang="en"><![endif]-->
+<!--[if IE 9]>    <html class="ie ie9 lte9" lang="en"><![endif]-->
+<!--[if gt IE 9]> <html lang="en"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- force IE to latest rendering engine for each version -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title>Style Guide | O3 Labs</title>
+
+        <meta name="description" content="Style Guide reference for elements for O3 Labs Projects" />
+        <meta name="author" content="O3 Labs" />
+
+        <!-- mobile settings -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- global site CSS -->
+        <link href="/src/styles/style.css" rel="stylesheet">
+
+        <!-- Typography -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:300,400" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <div class="container-patterns">
+            <header>
+                <h1>O3 Labs Style Guide</h1>
+                <p>This Style Guide is living document of the elements and components that make up O3 Labs projects. Use it to enhance communication between team members and to assist with visual consistency and code maintainability.</p>
+                <p><strong>CSS and JS updates are automatically added here when changes are made. HTML additions or updates will need to be added to the corresponding section manually.</strong></p>
+            </header>
+
+            <main>
+                <section id="color-palette" data-content-region="true">
+
+                    <h2>Color Palette</h2>
+
+                    <article id="color-palette-primary" data-content-region="true">
+                        <h3>Primary Colors</h3>
+                        
+                        <ul class="list-inline list-color-palette list-color-palette-primary">
+                             <!-- Reds -->
+                            <li class="color_brand-red">
+                                <p><strong>Brand Red</strong><br /> #E00000</p>
+                            </li>
+                            <li class="color_medium-red">
+                                <p><strong>Medium Red</strong><br /> #CC0000</p>
+                            </li>
+                            <li class="color_dark-red">
+                                <p><strong>Dark Red</strong><br /> #990000</p>
+                            </li>
+
+                            <!-- Grays -->
+                            <li class="color_gray-f1">
+                                <p><strong>Gray F1</strong><br /> #F1F1F1</p>
+                            </li>
+                            <li class="color_gray-e1">
+                                <p><strong>Gray E1</strong><br /> #E1E1E1</p>
+                            </li>
+                            <li class="color_gray-c7">
+                                <p><strong>Gray C7</strong><br /> #C7C7C7</p>
+                            </li>
+                            <li class="color_gray">
+                                <p><strong>Gray</strong><br /> #999999</p>
+                            </li>
+                            <li class="color_medium-gray">
+                                <p><strong>Medium Gray</strong><br /> #666666</p>
+                            </li>
+                            <li class="color_dark-gray">
+                                <p><strong>Dark Gray</strong><br /> #1D1D1D</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <hr>
+
+                    <article id="color-palette-primary" data-content-region="true">
+                        <h3>Supporting Colors</h3>
+                        
+                        <ul class="list-inline list-color-palette list-color-palette-primary">
+                            <!-- Blues -->
+                            <li class="color_light-blue">
+                                <p><strong>Light Blue</strong><br /> #03B1EB</p>
+                            </li>
+                            <li class="color_medium-blue">
+                                <p><strong>Medium Blue</strong><br /> #0099CC</p>
+                            </li>
+                            <li class="color_dark-blue">
+                                <p><strong>Dark Blue</strong><br /> #037196</p>
+                            </li>
+                        </ul>
+                    </article>
+                
+                </section>
+
+                <hr />
+
+                <section id="grid-system" data-content-region="true">
+                    <h2>Grid System</h2>
+              
+                    <article id="grid-system-four" data-content-region="true">
+                        <h3>Four Content Columns</h3>
+                        <h4>Example:</h4>
+                        <div data-xrayhtml>
+                            <div class="container-fluid">
+                                <div class="row show-grid">
+                                    <div class="col-md-3">
+                                        3-Col
+                                    </div>
+                                    <div class="col-md-3">
+                                        3-Col
+                                    </div>
+                                    <div class="col-md-3">
+                                        3-Col
+                                    </div>
+                                    <div class="col-md-3">
+                                        3-Col
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <hr />
+
+                <section id="typography" data-content-region="true">
+                    <h2>Typography</h2>
+
+                        <article id="typography-headers" data-content-region="true">
+                            <h3>Headers</h3>
+
+                            <h4>h1</h4>
+                            <div data-xrayhtml>
+                                <h1>The quick brown fox jumps over the lazy dog</h1>
+                                <span class="h1">The quick brown fox jumps over the lazy dog</span>
+                            </div>
+
+                            <hr>
+
+                            <h4>h2</h4>
+                            <div data-xrayhtml>
+                                <h2>The quick brown fox jumps over the lazy dog</h2>
+                                <span class="h2">The quick brown fox jumps over the lazy dog</span>
+                            </div>
+
+                            <hr>
+
+                            <h4>h3</h4>
+                            <div data-xrayhtml>
+                                <h3>The quick brown fox jumps over the lazy dog</h3>
+                                <span class="h3">The quick brown fox jumps over the lazy dog</span>
+                            </div>
+
+                            <hr>
+
+                            <h4>h4</h4>
+                            <div data-xrayhtml>
+                                <h4>The quick brown fox jumps over the lazy dog</h4>
+                                <span class="h4">The quick brown fox jumps over the lazy dog</span>
+                            </div>
+
+                        </article>
+
+                        <hr />
+
+                        <article id="typography-content" data-content-region="true">
+                            <h3>Content Elements</h3>
+
+                            <h4 id="typography-paragraph" data-content-region="true">Paragraph</h4>
+
+                            <p>The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, <strong>strong text in a paragraph</strong>. Duis nulla tellus, cursus quis diam eget, facilisis consequat leo. Morbi rutrum odio ac risus gravida pellentesque eget nec dolor. Quisque sit amet mollis enim. Nullam aliquet vitae orci vitae feugiat. Proin eu euismod risus, vel pellentesque magna.</p>
+                            <p>Vivamus cursus turpis dui, <em>emphasized text in a paragraph</em>. Vestibulum nec porta magna. Morbi quam lorem, sollicitudin bibendum auctor et, rutrum eu sem. Nulla rutrum urna eu justo finibus tincidunt. Donec vehicula diam eget tempus eleifend. Aenean sodales sit amet lorem nec lacinia. Sed ultrices placerat est. Suspendisse vitae orci sollicitudin, <a href="" title="Linked Text in a Paragraph">linked text in a paragraph</a>, molestie est. Curabitur viverra tincidunt vestibulum. Vivamus consectetur nulla tortor, ultricies commodo nulla semper vel.</p>
+
+                            <h4 id="typography-ol" data-content-region="true">Ordered List</h4>
+
+                            <ol>
+                                <li>The quick brown fox jumps over the lazy dog</li>
+                                <li>Quisque at mi a nunc ornare tincidunt a non diam
+                                    <ul>
+                                        <li>The quick brown fox jumps over the lazy dog</li>
+                                        <li>In accumsan ut sapien nec porttitor</li>
+                                        <li>Quisque vitae libero quis ipsum dignissim efficitur</li>
+                                    </ul>
+                                </li>
+                                <li>Morbi sed dapibus nulla</li>
+                            </ol>
+
+                            <h4 id="typography-ul" data-content-region="true">Unordered List</h4>
+
+                            <ul>
+                                <li>The quick brown fox jumps over the lazy dog</li>
+                                <li>Quisque at mi a nunc ornare tincidunt a non diam
+                                    <ul>
+                                        <li>The quick brown fox jumps over the lazy dog</li>
+                                        <li>In accumsan ut sapien nec porttitor</li>
+                                        <li>Quisque vitae libero quis ipsum dignissim efficitur</li>
+                                    </ul>
+                                </li>
+                                <li>Morbi sed dapibus nulla</li>
+                            </ul>
+
+                            <h4 id="typography-blockquote" data-content-region="true">Quotes</h4>
+
+                            <blockquote>
+                                <p>You know the golden rule, don’t you boy? Those who have the gold make the rules.</p>
+                            </blockquote>
+
+                            <blockquote>
+                                <p>You know the golden rule, don’t you boy? Those who have the gold make the rules.</p>
+                                <footer>Crazy hunch-backed old guy from the movie <cite>Aladdin</cite></footer>
+                            </blockquote>
+                        </article>
+                    </section>
+
+                    <hr>
+
+                    <section id="button" data-content-region="true">
+                        <h2>Buttons</h2>
+
+                        <article id="buttons-default" data-content-region="true">
+                            <h3>Default Buttons</h3>
+                            <div data-xrayhtml>
+                                <button class="btn btn-default">Default Button</button>
+                                <a href="#" class="btn btn-default">Default Button</a>
+                            </div>
+                        </article>
+
+                        <hr>
+
+                        <article id="buttons-primary" data-content-region="true">
+                            <h3>Primary Buttons</h3>
+                            <div data-xrayhtml>
+                                <button class="btn btn-primary">Primary Button</button>
+                                <a href="#" class="btn btn-primary">Primary Button</a>
+                            </div>
+                        </article>
+
+                        <article id="buttons-secondary" data-content-region="true">
+                            <h3>Secondary Buttons</h3>
+                            <div data-xrayhtml>
+                                <button class="btn btn-secondary">Secondary Button</button>
+                                <a href="#" class="btn btn-secondary">Secondary Button</a>
+                            </div>
+                        </article>
+
+                    <article id="buttons-knockout" data-content-region="true">
+                        <h3>Knockout Buttons</h3>
+                        <div data-xrayhtml>
+                            <button class="btn btn-knockout">Knockout Button</button>
+                            <a href="#" class="btn btn-knockout">Knockout Button</a>
+                        </div>
+                    </article>
+
+              </article>
+              <article id="buttons-sizes" data-content-region="true">
+                <h3>Button Sizes</h3>
+                <div data-xrayhtml>
+    <button class="btn btn-primary btn-sm">Small Button</button>
+    <button class="btn btn-primary">Default Button</button>
+    <button class="btn btn-primary btn-lg">Large Button</button>
+                </div>
+              </article>
+            </section>
+            <section id="form-elements" data-content-region="true">
+              <h2>Forms</h2>
+              <article id="form-elements-input" data-content-region="true">
+                <h3>Inputs</h3>
+                <div data-xrayhtml>
+    <form>
+      <div class="form-group">
+        <label for="exEmail">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-textarea" data-content-region="true">
+                <h3>Textarea</h3>
+                <div data-xrayhtml>
+    <form>
+      <div class="form-group">
+        <label for="exComment">Email address</label>
+        <textarea class="form-control" rows="3" id="exComment"></textarea>
+      </div>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-radios" data-content-region="true">
+                <h3>Checkboxes and Radios</h3>
+                <div data-xrayhtml>
+    <form>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Option one is this and that&mdash;be sure to include why it's great
+        </label>
+      </div>
+      <div class="checkbox disabled">
+        <label>
+          <input type="checkbox" value="" disabled>
+          Option two is disabled
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+          Option one is this and that&mdash;be sure to include why it's great
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+          Option two can be something else and selecting it will deselect option one
+        </label>
+      </div>
+      <div class="radio disabled">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+          Option three is disabled
+        </label>
+      </div>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-radios-inline" data-content-region="true">
+                <h3>Inline Checkboxes and Radios</h3>
+                <div data-xrayhtml>
+    <form>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+      </label>
+      <br>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+      </label>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-select" data-content-region="true">
+                <h3>Selects</h3>
+                <div data-xrayhtml>
+    <form>
+      <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-sample" data-content-region="true">
+                <h3>Sample Form</h3>
+                <div data-xrayhtml>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-inline" data-content-region="true">
+                <h3>Inline Forms</h3>
+                <div data-xrayhtml>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail2">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" class="btn btn-default">Send invitation</button>
+    </form>
+                </div>
+              </article>
+              <hr>
+              <article id="form-elements-validation" data-content-region="true">
+                <h3>Validation States</h3>
+                <div data-xrayhtml>
+    <div class="form-group has-success">
+      <label class="control-label" for="inputSuccess1">Input with success</label>
+      <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+      <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+    </div>
+    <div class="form-group has-warning">
+      <label class="control-label" for="inputWarning1">Input with warning</label>
+      <input type="text" class="form-control" id="inputWarning1">
+    </div>
+    <div class="form-group has-error">
+      <label class="control-label" for="inputError1">Input with error</label>
+      <input type="text" class="form-control" id="inputError1">
+    </div>
+    <div class="has-success">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" id="checkboxSuccess" value="option1">
+          Checkbox with success
+        </label>
+      </div>
+    </div>
+    <div class="has-warning">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" id="checkboxWarning" value="option1">
+          Checkbox with warning
+        </label>
+      </div>
+    </div>
+    <div class="has-error">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" id="checkboxError" value="option1">
+          Checkbox with error
+        </label>
+      </div>
+    </div>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="tables" data-content-region="true">
+              <h2>Tables</h2>
+              <articles>
+                <div data-xrayhtml>
+    <table>
+      <tr>
+        <th>Countries</th>
+        <th>Capitals</th>
+        <th>Population</th>
+        <th>Language</th>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>Washington D.C.</td>
+        <td>309 million</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+      </tr>
+      <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+      </tr>
+      <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+      </tr>
+    </table>
+                </div>
+              </articles>
+            </section>
+            <hr>
+            <section id="alerts" data-content-region="true">
+              <h2>Alerts</h2>
+              <article>
+                <div data-xrayhtml>
+    <div class="alert alert-success" role="alert">Success message</div>
+    <div class="alert alert-info" role="alert">Informational message</div>
+    <div class="alert alert-warning" role="alert">Warning message</div>
+    <div class="alert alert-danger" role="alert">Danger message</div>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="icons" data-content-region="true">
+              <h2>Icons</h2>
+              <article>
+                <div data-xrayhtml>
+    <svg class="svg-logo-dims">
+      <title>Zift</title>
+      <use xlink:href="/images/svg-sprite.svg#logo"></use>
+    </svg>
+    <svg class="svg-follow-facebook-dims">
+      <title>Follow us on Facebook</title>
+      <use xlink:href="/images/svg-sprite.svg#follow-facebook"></use>
+    </svg>
+    <svg class="svg-follow-twitter-dims">
+      <title>Follow us on Twitter</title>
+      <use xlink:href="/images/svg-sprite.svg#follow-twitter"></use>
+    </svg>
+    <svg class="svg-follow-instagram-dims">
+      <title>Follow us on Instagram</title>
+      <use xlink:href="/images/svg-sprite.svg#follow-instagram"></use>
+    </svg>
+    <svg class="svg-follow-pinterest-dims">
+      <title>Follow us on Pinterest</title>
+      <use xlink:href="/images/svg-sprite.svg#follow-pinterest"></use>
+    </svg>
+    <svg class="svg-icon-plus-dims">
+      <use xlink:href="/images/svg-sprite.svg#icon-plus"></use>
+    </svg>
+    <svg class="svg-icon-minus-dims">
+      <use xlink:href="/images/svg-sprite.svg#icon-minus"></use>
+    </svg>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="slabs" data-content-region="true">
+              <h2>Slabs</h2>
+              <article>
+                <div data-xrayhtml>
+    <div class="slab">
+      <h2 class="slab__heading">Supporting Feature Headline</h2>
+      <p class="slab__subheading">This is a short sub-headline about the supporting feature</p>
+      <a href="#" class="btn btn-secondary">Learn More</a>
+    </div>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="accordion" data-content-region="true">
+              <h2>Accordions</h2>
+              <article>
+                <div data-xrayhtml>
+    <div class="accordion">
+      <div class="accordion__panel">
+        <div class="accordion__toggle is-open">
+          <svg class="svg-icon-accordion-plus-dims">
+            <use xlink:href="/images/svg-sprite.svg#icon-accordion-plus"></use>
+          </svg>
+          Feature 01
+        </div>
+        <div class="accordion__content">
+          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+        </div>
+      </div>
+      <div class="accordion__panel">
+        <div class="accordion__toggle">
+          <svg class="svg-icon-accordion-plus-dims">
+            <use xlink:href="/images/svg-sprite.svg#icon-accordion-plus"></use>
+          </svg>
+          Feature 02
+        </div>
+        <div class="accordion__content" aria-hidden="true">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+        </div>
+      </div>
+      <div class="accordion__panel">
+        <div class="accordion__toggle">
+          <svg class="svg-icon-accordion-plus-dims">
+            <use xlink:href="/images/svg-sprite.svg#icon-accordion-plus"></use>
+          </svg>
+          Feature 03
+        </div>
+        <div class="accordion__content" aria-hidden="true">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscin
+        </div>
+      </div>
+    </div>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="banners" data-content-region="true">
+              <h2>Banners</h2>
+              <article>
+                <div data-xrayhtml>
+    <div class="banner">
+      <div class="banner__image"></div>
+      <style>
+        .banner__image {
+          background-image: url( images/placeholder.jpg );
+        }
+      </style>
+      <div class="banner__content">
+        <h1 class="h1">Pricing</h1>
+        <p>This is a sample sub-headline about the page.</p>
+      </div>
+      <span class="banner__overlay">
+        <svg class="banner__curve" viewBox="0 0 500 250" PreserveAspectRatio="none">
+          <path fill="#FFFFFF" d="M250,246.5c-97.85,0-186.344-40.044-250-104.633V250h500V141.867C436.344,206.456,347.85,246.5,250,246.5z" />
+        </svg>
+      </span>
+    </div>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="article-cards" data-content-region="true">
+              <h2>Article Cards</h2>
+              <article>
+                <h3>Cards with images</h3>
+                <div data-xrayhtml>
+    <ul class="grid-articles">
+      <li class="grid-articles__item">
+        <div class="grid-articles__content">
+          <div class="grid-articles__image">
+            <img src="images/placeholder.jpg" alt="">
+            <svg viewBox="0 0 500 250" PreserveAspectRatio="none">
+              <path fill="#FFFFFF" d="M250,246.5c-97.85,0-186.344-40.044-250-104.633V250h500V141.867C436.344,206.456,347.85,246.5,250,246.5z" />
+            </svg>
+          </div>
+          <div class="grid-articles__innner">
+            <ul class="list-inline grid-articles__meta">
+              <li>
+                August 29, 2016
+              </li>
+              <li>
+                <a href="#">How It Works</a>
+              </li>
+            </ul>
+            <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+            <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+          </div>
+        </div>
+      </li>
+      <li class="grid-articles__item">
+        <div class="grid-articles__content">
+          <div class="grid-articles__image">
+            <img src="images/placeholder.jpg" alt="">
+            <svg viewBox="0 0 500 250" PreserveAspectRatio="none">
+              <path fill="#FFFFFF" d="M250,246.5c-97.85,0-186.344-40.044-250-104.633V250h500V141.867C436.344,206.456,347.85,246.5,250,246.5z" />
+            </svg>
+          </div>
+          <div class="grid-articles__innner">
+            <ul class="list-inline grid-articles__meta">
+              <li>
+                August 29, 2016
+              </li>
+              <li>
+                <a href="#">How It Works</a>
+              </li>
+            </ul>
+            <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+            <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+          </div>
+        </div>
+      </li>
+      <li class="grid-articles__item">
+          <div class="grid-articles__content">
+            <div class="grid-articles__image">
+              <img src="images/placeholder.jpg" alt="">
+              <svg viewBox="0 0 500 250" PreserveAspectRatio="none">
+                <path fill="#FFFFFF" d="M250,246.5c-97.85,0-186.344-40.044-250-104.633V250h500V141.867C436.344,206.456,347.85,246.5,250,246.5z" />
+              </svg>
+            </div>
+            <div class="grid-articles__innner">
+              <ul class="list-inline grid-articles__meta">
+                <li>
+                  August 29, 2016
+                </li>
+                <li>
+                  <a href="#">How It Works</a>
+                </li>
+              </ul>
+              <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+              <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+                </div>
+                <hr>
+                <h3>Cards withpit images</h3>
+                <div data-xrayhtml>
+    <ul class="grid-articles">
+      <li class="grid-articles__item">
+        <div class="grid-articles__content">
+          <div class="grid-articles__innner">
+            <ul class="list-inline grid-articles__meta">
+              <li>
+                August 29, 2016
+              </li>
+              <li>
+                <a href="#">How It Works</a>
+              </li>
+            </ul>
+            <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+            <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+          </div>
+        </div>
+      </li>
+      <li class="grid-articles__item">
+        <div class="grid-articles__content">
+          <div class="grid-articles__innner">
+            <ul class="list-inline grid-articles__meta">
+              <li>
+                August 29, 2016
+              </li>
+              <li>
+                <a href="#">How It Works</a>
+              </li>
+            </ul>
+            <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+            <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+          </div>
+        </div>
+      </li>
+      <li class="grid-articles__item">
+          <div class="grid-articles__content">
+            <div class="grid-articles__innner">
+              <ul class="list-inline grid-articles__meta">
+                <li>
+                  August 29, 2016
+                </li>
+                <li>
+                  <a href="#">How It Works</a>
+                </li>
+              </ul>
+              <h3><a href="#">Using Pokemon GO To Increase Time Spent Outdoors</a></h3>
+              <p>This is an overview about using Pokemon GO to increase time spent outdoors for both children and adults.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="pagination" data-content-region="true">
+              <h2>Pagination</h2>
+              <article>
+                <div data-xrayhtml>
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        <li class="disabled">
+          <a href="#" aria-label="Previous" class="btn btn-primary btn-circle">
+            <svg class="svg-icon-arrow-left-dims">
+              <title>Previous</title>
+              <use xlink:href="/images/svg-sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li class="active"><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+          <a href="#" aria-label="Next" class="btn btn-primary btn-circle">
+            <svg class="svg-icon-arrow-right-dims">
+              <use xlink:href="/images/svg-sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+                </div>
+              </article>
+            </section>
+            <hr>
+            <section id="share" data-content-region="true">
+              <h2>Social Share</h2>
+              <article>
+                <div data-xrayhtml>
+    <ul class="list-inline social-share">
+      <li>
+        <a href="#">
+          <svg class="svg-share-facebook-dims">
+            <title>Friend us on Facebook</title>
+            <use xlink:href="/images/svg-sprite.svg#share-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg class="svg-share-twitter-dims">
+            <title>Follow us on Twitter</title>
+            <use xlink:href="/images/svg-sprite.svg#share-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg class="svg-share-google-dims">
+            <title>Follow us on Google+</title>
+            <use xlink:href="/images/svg-sprite.svg#share-google"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg class="svg-share-pinterest-dims">
+            <title>Follow us on Pinterest</title>
+            <use xlink:href="/images/svg-sprite.svg#share-pinterest"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+                </div>
+              </article>
+          </main>
+    </div>
+    <!-- /.container-patterns -->
+
+        <div class="side-menu">
+            <a href="/" class="logo">
+                O3 Labs
+            </a>
+            <div class="container-nav">
+                <h2>Contents</h2>
+                <nav>
+                    <ol class="list-unstyled list-nav">
+                        <li><a href="#color-palette" title="Color Palette">Color Palette</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#color-palette-primary" title="Primary Color Palette">Primary Colors</a></li>
+                                <li><a href="#color-palette-supporting" title="Supporting Color Palette">Supporting Colors</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li><a href="#grid-system" title="Grid System">Grid System</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#grid-system-four" title="4 Column Layout">Four Content Columns</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#typography" title="Typography">Typography</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#typography-headers" title="Headers">Headers</a></li>
+                                <li><a href="#typography-content" title="Content Elements">Content Elements</a>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#typography-paragraph" title="Paragraph">Paragraph</a></li>
+                                        <li><a href="#typography-ol" title="Ordered List">Ordered List</a></li>
+                                        <li><a href="#typography-ul" title="Unordered List">Unordered List</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li> -->
+                        <!-- <li><a href="#buttons" title="Buttons">Buttons</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#buttons-default" title="Default Buttons">Default Buttons</a></li>
+                                <li><a href="#buttons-primary" title="Primary Buttons">Primary Buttons</a></li>
+                                <li><a href="#buttons-secondary" title="Secondary Buttons">Secondary Buttons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#form-elements" title="Form Elements">Forms</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#form-elements-input">Inputs</a></li>
+                                <li><a href="#form-elements-textarea">Textarea</a></li>
+                                <li><a href="#form-elements-radios">Checkboxes and Radios</a></li>
+                                <li><a href="#form-elements-radios-inline">Inline Checkboxes and Radios</a></li>
+                                <li><a href="#form-elements-select">Selects</a></li>
+                            </ul>
+                        </li> -->
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- /.fixed-panel -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="../src/js/vendor/jquery.min.js"></script>
+        <script src="../src/js/vendor/modernizr.min.js"></script>
+        <script src="../src/js/vendor/plugins.min.js"></script>
+        <script src="../src/js/functionality.min.js"></script>
+    </body>
+</html>
