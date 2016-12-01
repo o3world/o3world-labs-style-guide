@@ -33,14 +33,6 @@
             <h4>The quick brown fox jumps over the lazy dog</h4>
             <span class="h4">The quick brown fox jumps over the lazy dog</span>
         </div>
-
-        <hr>
-
-        <h4>h5</h4>
-        <div data-xrayhtml>
-            <h5>The quick brown fox jumps over the lazy dog</h5>
-            <span class="h5">The quick brown fox jumps over the lazy dog</span>
-        </div>
     </article>
 
     <hr />

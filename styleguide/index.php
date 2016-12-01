@@ -21,10 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- global site CSS -->
-        <!-- <link href="/src/styles/style.css" rel="stylesheet"> -->
-
-        <!-- style guide specific CSS -->
-        <link href="css/styleguide.css" rel="stylesheet">
+        <link href="/src/styles/style.css" rel="stylesheet">
 
         <!-- Typography -->
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:300,400" rel="stylesheet" type="text/css">
@@ -46,10 +43,10 @@
         <?php include("includes/sidebar.php"); ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/xrayhtml.js"></script>
-        <script src="js/prism.js"></script>
-        <script src="js/waypoints.js"></script>
-        <script src="js/styleguide.js"></script>
+        <script src="../src/js/styleguide/xrayhtml.js"></script>
+        <script src="../src/js/styleguide/prism.js"></script>
+        <script src="../src/js/styleguide/waypoints.js"></script>
+        <script src="../src/js/styleguide/styleguide.js"></script>
 
     </body>
 

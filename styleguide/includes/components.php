@@ -4,10 +4,10 @@
 
 <?php include(dirname(__FILE__) . "/../components/typography.php"); ?>
 
-<hr />
+<!-- <hr /> -->
 
-<?php include(dirname(__FILE__) . "/../components/buttons.php"); ?>
+<?php //include(dirname(__FILE__) . "/../components/buttons.php"); ?>
 
-<hr />
+<!-- <hr /> -->
 
-<?php include(dirname(__FILE__) . "/../components/forms.php"); ?>
+<?php //include(dirname(__FILE__) . "/../components/forms.php"); ?>

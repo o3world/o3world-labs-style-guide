@@ -1,4 +1,4 @@
-h1 {
+h1, .h1 {
     color: $dark-gray;
     font-family: $sans-serif;
     font-weight: 900;
@@ -7,7 +7,7 @@ h1 {
     @include font-size(58);
 }
 
-h2 {
+h2, .h2 {
     color: $dark-gray;
     font-family: $sans-serif;
     font-weight: 700;
@@ -16,12 +16,21 @@ h2 {
     @include font-size(40);
 }
 
-h3 {
+h3, .h3 {
     color: $medium-gray;
     font-family: $sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
 
     @include font-size(32);
+}
+
+h4, .h4 {
+    color: $dark-gray;
+    font-family: $serif;
+    font-weight: 400;
+
+    @include font-size(26);
 }
 
 p {
@@ -39,18 +48,31 @@ p {
 ********************/
 
 ol, ul {
-    list-style: none;
+    color: $dark-gray;
+    font-family: $serif;
+    font-weight: 300;
+    line-height: 30px;
     margin: 0;
 
+    @include font-size(24);
+
     li {
-        padding-left: 35px;
+        padding-left: 5px;
     }
+}
+
+ul {
+    list-style: circle;
 }
 
 .list-unstyled {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    li {
+        padding-left: 0;
+    }
 }
 
 
