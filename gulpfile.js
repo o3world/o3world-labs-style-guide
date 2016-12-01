@@ -24,16 +24,16 @@ gulp.task('css', function () {
         .pipe(notify({message: 'SCSS Compiled!'}));
 });
 
-// gulp.task('styleguide-styles', function() {
-//     return sass('src/styles/scss/styleguide/styleguide.scss')
-//         .pipe(plumber())
-//         .pipe(autoprefixer({browsers: ['last 3 versions']}))
-//         .pipe(gulp.dest('public/styleguide/css'))
-//         .pipe(minify({cache: false, keepSpecialComments: false, processImport: false}))
-//         .pipe(rename({suffix: '.min'}))
-//         .pipe(gulp.dest('src/styles/css'))
-//         .pipe(notify({message: 'SCSS Compiled', onLast: true}));
-// });
+gulp.task('styleguide-styles', function() {
+    return sass('./styleguide/css/styleguide.scss')
+        .pipe(plumber())
+        .pipe(autoprefixer({browsers: ['last 3 versions']}))
+        .pipe(gulp.dest('styleguide/css'))
+        .pipe(minify({cache: false, keepSpecialComments: false, processImport: false}))
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('styleguide/css'))
+        .pipe(notify({message: 'SCSS Compiled', onLast: true}));
+});
 
 gulp.task('js-plugins', function () {
     gulp.src('./src/js/vendor/plugins/*.js')
@@ -59,6 +59,7 @@ gulp.task('watch', function () {
     gulp.watch('./src/styles/scss/**/*.scss', ['css']);
     gulp.watch('./src/js/**/*.js', ['js-plugins']);
     gulp.watch('./src/js/functionality.js', ['js']);
+    gulp.watch(['styleguide/css/*.scss'], ['styleguide-styles']);
 });
 
 gulp.task('default', ['watch']);
