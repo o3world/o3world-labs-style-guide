@@ -1,5 +1,5 @@
 <div class="fixed-panel">
-  	<a href="#" class="logo">
+  	<a href="/" class="logo">
         <img src="../src/images/o3labs-bot.svg" />
     </a>
   	<div class="container-nav">
