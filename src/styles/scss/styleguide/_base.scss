@@ -38,11 +38,26 @@
   	width: auto;
 }
 
+.demo-background {
+	background-color: $dark-gray;
+	padding: 25px;
+}
+
 .fixed-panel {
   	position: relative;
   	overflow: hidden;
   	width: 250px;
 } 
+
+hr {
+    background-color: $gray-c7;
+    border: none;
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 25px 0;
+    width: 100%;
+}
 
 .logo {
 	background-color: $medium-red; 
@@ -57,8 +72,6 @@
 		width: 100px;
 	}
 }
-
-
 
 
 /* Move to Partials later
@@ -215,5 +228,13 @@ pre {
 .snippet,
 .source-panel {
   	margin-bottom: 25px
+}
+
+.xraytitle {
+	color: $dark-gray;
+    font-family: $serif;
+    font-weight: 300;
+
+    @include font-size(20);
 }
 

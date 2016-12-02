@@ -6,7 +6,7 @@
 
 <!-- <hr /> -->
 
-<?php //include(dirname(__FILE__) . "/../components/buttons.php"); ?>
+<?php include(dirname(__FILE__) . "/../components/buttons.php"); ?>
 
 <!-- <hr /> -->
 
