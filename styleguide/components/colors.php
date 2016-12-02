@@ -4,7 +4,7 @@
     <article id="color-palette-primary" data-content-region="true">
         <h3>Primary Colors</h3>
         <ul class="list-inline list-color-palette list-color-palette-primary">
-            <!-- Reds -->
+
             <li class="color_brand-red">
                 <p><strong>Brand Red</strong><br /> #E00000</p>
             </li>
@@ -14,8 +14,20 @@
             <li class="color_dark-red">
                 <p><strong>Dark Red</strong><br /> #990000</p>
             </li>
+            <li class="color_medium-gray">
+                <p><strong>Medium Gray</strong><br /> #666666</p>
+            </li>
+            <li class="color_dark-gray">
+                <p><strong>Dark Gray</strong><br /> #1D1D1D</p>
+            </li>      
+             
+        </ul>
+    </article>
 
-            <!-- Grays -->
+    <article id="color-palette-supporting" data-content-region="true">
+        <h3>Supporting Colors</h3>
+        <ul class="list-inline list-color-palette list-color-palette-secondary">
+
             <li class="color_gray-f1">
                 <p><strong>Gray F1</strong><br /> #F1F1F1</p>
             </li>
@@ -28,19 +40,7 @@
             <li class="color_gray">
                 <p><strong>Gray</strong><br /> #999999</p>
             </li>
-            <li class="color_medium-gray">
-                <p><strong>Medium Gray</strong><br /> #666666</p>
-            </li>
-            <li class="color_dark-gray">
-                <p><strong>Dark Gray</strong><br /> #1D1D1D</p>
-            </li> 
-        </ul>
-    </article>
-
-    <article id="color-palette-supporting" data-content-region="true">
-        <h3>Supporting Colors</h3>
-        <ul class="list-inline list-color-palette list-color-palette-secondary">
-            <!-- Blues -->
+            
             <li class="color_light-blue">
                 <p><strong>Light Blue</strong><br /> #03B1EB</p>
             </li>
@@ -49,7 +49,8 @@
             </li>
             <li class="color_dark-blue">
                 <p><strong>Dark Blue</strong><br /> #037196</p>
-            </li>         
+            </li>  
+                   
         </ul>
     </article>
 </section>

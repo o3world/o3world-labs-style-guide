@@ -1,3 +1,15 @@
+a {
+    color: $brand-red;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .2s ease;
+
+    &:hover {
+        color: $dark-red;
+        text-decoration: underline;
+    }
+} 
+
 h1, .h1 {
     color: $dark-gray;
     font-family: $sans-serif;
