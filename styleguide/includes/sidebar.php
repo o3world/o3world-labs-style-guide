@@ -1,6 +1,6 @@
 <div class="fixed-panel">
   	<a href="/" class="logo">
-        <img src="../src/images/o3labs-bot.svg" />
+        <img src="../src/svg/o3labs-bot.svg" />
     </a>
   	<div class="container-nav">
     	<h2>Contents</h2>
@@ -20,7 +20,7 @@
 				                <li><a href="#typography-paragraph" title="Paragraph">Paragraph</a></li>
 				                <li><a href="#typography-ol" title="Ordered List">Ordered List</a></li>
 				                <li><a href="#typography-ul" title="Unordered List">Unordered List</a></li>
-				                <li><a href="#typography-inline" title="Inline List">Inline List</a></li>
+				                <!-- <li><a href="#typography-inline" title="Inline List">Inline List</a></li> -->
 			              	</ul>
 			            </li>
 		          	</ul>
@@ -36,11 +36,22 @@
 			            <li><a href="#form-elements-input">Inputs</a></li>
 			            <li><a href="#form-elements-textarea">Textarea</a></li>
 			            <li><a href="#form-elements-radios">Checkboxes and Radios</a></li>
-			            <li><a href="#form-elements-radios-inline">Inline Checkboxes and Radios</a></li>
-			            <li><a href="#form-elements-select">Selects</a></li>
+			            <!-- <li><a href="#form-elements-radios-inline">Inline Checkboxes and Radios</a></li> -->
+			            <!-- <li><a href="#form-elements-select">Selects</a></li> -->
 			            <li><a href="#form-elements-sample">Sample Form</a></li>
+			            <li><a href="#form-pop-up-sample">Pop-Up Form</a></li>
+			            <li><a href="#form-pop-up-response-sample">Pop-Up Form Response</a></li>
           			</ul>
         		</li>
+        		<li><a href="#tables" title="Tables">Tables</a></li>
+		        <!-- <li><a href="#icons" title="Icons">Icons</a></li> -->
+		        <!-- <li><a href="#slabs" title="Slabs">Slabs</a></li> -->
+		        <li><a href="#accordion" title="Accordion">Accordions</a></li>
+		        <!-- <li><a href="#banners" title="Banners">Banners</a></li> -->
+		        <!-- <li><a href="#article-cards" title="Article Cards">Article Cards</a></li> -->
+		        <!-- <li><a href="#pagination" title="Pagination">Pagination</a></li> -->
+		        <!-- <li><a href="#share" title="Social Share">Social Share</a></li> -->
+		        <!-- <li><a href="#cta" title="Call to Action">Call to Action</a></li> -->
 	      	</ol>
 	    </nav>
   	</div>

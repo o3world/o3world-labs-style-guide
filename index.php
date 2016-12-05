@@ -1,7 +1,14 @@
+<?php include("header.php"); ?>
 
-<h1>Welcome to O3 Labs</h1>
-<p>This Style Guide is living document of the elements and components that make up O3 Labs projects. Use it to enhance communication between team members and to assist with visual consistency and code maintainability.</p>
-<a class="btn" href="styleguide/index.php">View the Styleguide</a>
+<div class="welcome-screen">
+	<div class="welcome-message">
+		<img src="src/svg/o3labs-bot.svg" class="welcome-logo" />
+		<h1>Every great innovation starts with a crazy idea</h1>
+		<a class="btn btn-primary" href="styleguide/index.php">View the Styleguide</a>
+	</div>
+</div>
+
+<?php include("footer.php"); ?>
 
 
 

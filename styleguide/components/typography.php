@@ -80,11 +80,11 @@
 
         <hr>
 
-        <h4 id="typography-inline" data-content-region="true">Inline List</h4>
+<!--         <h4 id="typography-inline" data-content-region="true">Inline List</h4>
         <ul class="list-inline">
             <li>First Item</li>
             <li>Second Item</li>
             <li>Third Item</li>
-        </ul>
+        </ul> -->
     </article>
 </section>
