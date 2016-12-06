@@ -1,2 +1,4 @@
 node_modules
 .nvmrc
+_site
+.DS_Store
