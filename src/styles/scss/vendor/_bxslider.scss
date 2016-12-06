@@ -9,15 +9,16 @@
  * CEO and founder of bxCreative, LTD
  * http://bxcreative.com
  ***/
+
 /** RESET AND LAYOUT
 ===================================*/
 .bx-wrapper {
-  position: relative;
-  margin: 0 auto 60px;
-  padding: 0;
-  *zoom: 1;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
+  	position: relative;
+  	margin: 0 auto 60px;
+  	padding: 0;
+  	*zoom: 1;
+  	-ms-touch-action: pan-y;
+  	touch-action: pan-y;
 }
 .bx-wrapper img {
   max-width: 100%;
