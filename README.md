@@ -3,7 +3,7 @@
 A Style Guide that is living document of the elements and components that make up O3 Labs projects.
 
 #
-![screenshot of project main page](/images/demo-screenshot.jpg)
+![screenshot of project main page](/src/images/demo-screenshot.jpg)
 
 ## Github Pages Link
 
