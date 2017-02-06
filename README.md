@@ -22,4 +22,4 @@ git clone https://github.com/o3world/o3world-labs-style-guide.git
 cd o3-labs-style-guide
 ````
 If editing, open project directory in Code Editor of choice
-If viewing, open index.html in a web browser
+
