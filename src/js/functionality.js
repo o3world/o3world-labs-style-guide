@@ -24,4 +24,22 @@ jQuery(document).ready(function() {
 
     });
 
+    jQuery('.menu-close').click('click', function(){
+
+        var sidebar = jQuery('.fixed-panel, .menu-close');
+        var mainContent = jQuery('.container-patterns');
+
+        sidebar.animate({ 'left' : '-250px' }, 200);
+        mainContent.css({ 'margin' : '15px 0 0 0' });
+    });
+
+    jQuery('.menu-toggle--inline').click('click', function(){
+
+        var sidebar = jQuery('.fixed-panel, .menu-close');
+        var mainContent = jQuery('.container-patterns');
+
+        sidebar.animate({ 'left' : '0' }, 200);
+        mainContent.css({ 'margin' : '15px 0 0 250px' });
+    });
+
 });
