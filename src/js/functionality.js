@@ -4,7 +4,66 @@
 
 jQuery(document).ready(function() {
 
-    /* Accordions */
+    /*********** Menus ***********/
+
+    var menuHide = function(){
+        var sidebar = jQuery('.fixed-panel, .menu-close');
+        sidebar.animate({ 'left' : '-100%' }, 200);
+    }
+
+    var menuShow = function(){
+        var sidebar = jQuery('.fixed-panel, .menu-close');
+        sidebar.animate({ 'left' : '0' }, 200);
+    }
+
+    /* Hide push menu on click */
+    jQuery('.menu-close').click('click', function(){
+        menuHide();
+    });
+
+    /* Show push menu on click */
+    jQuery('.menu-toggle--inline').click('click', function(){
+        menuShow();
+    });
+
+    var viewport = jQuery(window);
+    var header = jQuery('.site-header');
+
+    /* Hide menu/header based on width */
+    viewport.resize(function(){
+        if (jQuery(this).width() > 768) {
+            menuShow();
+            header.slideUp();
+        } else {
+            header.slideDown();
+        }
+    });
+
+    /* Slide header up/down based on scrolling up/down */
+
+    var previousScroll = 0;
+    var headerOrgOffset = $('.top-nav').height();
+
+    $('.site-header').height(headerOrgOffset);
+
+    viewport.scroll(function(){
+
+        var currentScroll = $(this).scrollTop();
+        if (currentScroll > headerOrgOffset) {
+            if (currentScroll > previousScroll) {
+                header.slideUp();
+            } else {
+                if (jQuery(this).width() < 768) {
+                    header.slideDown();
+                }
+            }
+        }
+
+        previousScroll = currentScroll;
+
+    });
+
+    /*********** Accordions ***********/
 
     jQuery('.accordion__toggle').on('click', function(){
 
@@ -24,22 +83,10 @@ jQuery(document).ready(function() {
 
     });
 
-    jQuery('.menu-close').click('click', function(){
+    /*********** Sliders ***********/
 
-        var sidebar = jQuery('.fixed-panel, .menu-close');
-        var mainContent = jQuery('.container-patterns');
-
-        sidebar.animate({ 'left' : '-250px' }, 200);
-        mainContent.css({ 'margin' : '15px 0 0 0' });
-    });
-
-    jQuery('.menu-toggle--inline').click('click', function(){
-
-        var sidebar = jQuery('.fixed-panel, .menu-close');
-        var mainContent = jQuery('.container-patterns');
-
-        sidebar.animate({ 'left' : '0' }, 200);
-        mainContent.css({ 'margin' : '15px 0 0 250px' });
+    jQuery('.bxslider').bxSlider({
+        controls: true
     });
 
 });

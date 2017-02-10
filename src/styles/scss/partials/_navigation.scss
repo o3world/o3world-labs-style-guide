@@ -29,18 +29,17 @@
 }
 
 .wizard-container {
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 40%;
-    height: 70px;
+    height: 10px;
+    height: 16px;
 }
 
 .wizard-button {
-    float: left;
-    clear: left;
-    text-align: left;
     width: 60%;
     clear: none;
-    padding: 0 17px;
+    padding: 0 16px;
     position: relative;
     transform: translateY(100%);
     cursor: pointer;

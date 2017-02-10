@@ -24,20 +24,28 @@
 	padding: 25px 0;
 	position: fixed;
 	top: 150px;
-	width: 250px;
+	width: 100%;
 
 	h2 {
 		margin-left: 25px;
 	}
 
+	@include bp(small) {
+			width: 250px;
+	};
+
 }
 
 .container-patterns {
   	box-sizing: border-box;
-		margin: 15px 0 0 250px;
+		margin: 25px 0 0 0;
   	padding: 25px;
   	width: auto;
 		transition: all 200ms;
+
+		@include bp(small) {
+				margin: 15px 0 0 250px;
+		}
 }
 
 .demo-background {
@@ -58,14 +66,20 @@
 .fixed-panel {
   	position: relative;
   	overflow: hidden;
-  	width: 250px;
+  	width: 100%;
 		top: 0;
 		left: 0;
 		z-index: 1;
+		transition: all 200ms;
+
+		@include bp(small) {
+				width: 250px;
+		};
 }
 
 .menu-close {
-		position: absolute;
+		position: fixed;
+		display: block;
 		width: 50px;
     height: 50px;
 		text-align: center;
@@ -83,6 +97,11 @@
     opacity: 1;
     transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
 		z-index: 2;
+		cursor: pointer;
+
+		@include bp(small) {
+				display: none;
+		};
 }
 
 hr {
@@ -101,12 +120,16 @@ hr {
 	position: fixed;
 	text-align: center;
 	top: 0;
-	width: 250px;
+	width: 100%;
 
 	img {
 		padding: 25px;
 		width: 100px;
 	}
+
+	@include bp(small) {
+			width: 250px;
+	};
 
 }
 
