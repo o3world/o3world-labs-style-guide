@@ -39,7 +39,8 @@ cd to project root and run
 jekyll serve
 ````
 View website at http://localhost:4000/ 
-  ***NOTE: Jekyll may choose a different port. A terminal message will tell you the destination, but default is 4000***
+
+***NOTE: Jekyll may choose a different port. A terminal message will tell you the destination, but default is 4000***
 
 Install gulp and gulp modules
 ````
