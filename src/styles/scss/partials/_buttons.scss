@@ -18,7 +18,7 @@ button, .btn {
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.35s ease-out;
-    vertical-align: middle; 
+    vertical-align: middle;
 
     @include font-size(16);
 
@@ -27,20 +27,20 @@ button, .btn {
     }
 
     &.btn-primary {
+        margin: 5px 0;
         background: $medium-red;
-        &:hover { 
-            background-color: $brand-red; 
+        &:hover {
+            background-color: $brand-red;
             color: $white;
         }
     }
 
     &.btn-secondary {
+        margin: 5px 0;
         border: 2px solid $white;
-        &:hover { 
+        &:hover {
             background: $white;
             color: $medium-red;
         }
     }
 }
-
-

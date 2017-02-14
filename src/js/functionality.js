@@ -4,7 +4,25 @@
 
 jQuery(document).ready(function() {
 
-    /* Accordions */
+    /*********** Menus ***********/
+
+    $('#burger').on('click', function() {
+		    $('#burger, .container-nav, .logo').toggleClass('active');
+    });
+
+    var viewport = jQuery(window);
+    var header = jQuery('.site-header');
+
+    /* Hide menu/header based on width */
+    viewport.resize(function(){
+        if (jQuery(this).width() > 768) {
+            header.slideUp();
+        } else {
+            header.slideDown();
+        }
+    });
+
+    /*********** Accordions ***********/
 
     jQuery('.accordion__toggle').on('click', function(){
 
@@ -22,6 +40,13 @@ jQuery(document).ready(function() {
             jQuery(this).attr('aria-hidden', 'true');
         });
 
+    });
+
+    /*********** Sliders ***********/
+
+    jQuery('.bxslider').bxSlider({
+        controls: true,
+        pager: false
     });
 
 });
