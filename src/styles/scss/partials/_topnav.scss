@@ -8,6 +8,7 @@
     width: 100%;
     height: 35px;
     z-index: 3;
+    transition: all 0.5s;
 
     @include bp(small) {
         top: -50px;
@@ -33,7 +34,7 @@ $burger-bar-height: 2.5px;
 $burger-bar-spacing: 2.1px;
 
 #burger {
-  	background-color: $medium-red;
+  	background-color: $white;
   	appearance: none;
   	position: relative;
     padding: 0;
@@ -62,16 +63,16 @@ $burger-bar-spacing: 2.1px;
   	.bar {
     		width: 100%;
     		height: $burger-bar-height;
-    		background: $white;
+    		background: $medium-red;
     		display: block;
     		position: absolute;
     		transition: transform 0.4s, margin 0.4s, opacity 0.4s, background 0.3s;
   	}
 
   	&:hover {
-    		background: $white;
+    		background: $medium-red;
       		.bar {
-      			   background: $medium-red;
+      			   background: $white;
       		}
   	}
 
@@ -84,6 +85,7 @@ $burger-bar-spacing: 2.1px;
   	}
 
   	&.active, .menu-trigger:checked + .banner & {
+        border: 2px solid $white;
     		.bars {
     			   transform: translateY(5px);
     		}
