@@ -4,7 +4,13 @@
 
 jQuery(document).ready(function() {
 
-    /* Accordions */
+    /*********** Menus ***********/
+
+    $('#burger').on('click', function() {
+		    $('#burger, .container-nav, .logo').toggleClass('active');
+    });
+
+    /*********** Accordions ***********/
 
     jQuery('.accordion__toggle').on('click', function(){
 
@@ -22,6 +28,13 @@ jQuery(document).ready(function() {
             jQuery(this).attr('aria-hidden', 'true');
         });
 
+    });
+
+    /*********** Sliders ***********/
+
+    jQuery('.bxslider').bxSlider({
+        controls: true,
+        pager: false
     });
 
 });
