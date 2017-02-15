@@ -10,7 +10,7 @@
     z-index: 3;
 
     @include bp(small) {
-        display: none;
+        top: -50px;
     };
 }
 

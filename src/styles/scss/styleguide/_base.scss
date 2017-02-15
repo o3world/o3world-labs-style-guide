@@ -21,7 +21,7 @@
 	bottom: 0;
 	box-sizing: border-box;
 	overflow-y: auto;
-	padding: 25px 0;
+	padding: 0;
 	position: fixed;
 	top: 58px;
 	left: -100%;
@@ -159,8 +159,12 @@ hr {
 	      	position: absolute;
 	      	transition: width .2s ease;
 	      	top: 0;
-	      	width: 5px;
+	      	width: 0;
 	      	z-index: -1;
+
+					@include bp(small) {
+							width: 5px;
+					}
 	    }
 
     	// text treatment
@@ -214,8 +218,18 @@ hr {
 .list-color-palette-primary {
 
   	li {
-    	width: 175px;
-    	height: 150px;
+    	width: 144px;
+    	height: 125px;
+
+			@include bp(small) {
+					width: 154px;
+					height: 135px;
+			}
+
+			@include bp(medium) {
+					width: 175px;
+					height: 150px;
+			}
   	}
 
   	p {
@@ -232,7 +246,7 @@ hr {
   	li {
   		height: 110px;
     	overflow: hidden;
-    	width: 140px;
+    	width: 144px;
   	}
 
   	p {
